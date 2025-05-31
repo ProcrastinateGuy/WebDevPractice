@@ -47,6 +47,6 @@ document.querySelectorAll('.add-to-cart-button').forEach(
     (button) => { button.addEventListener('click', () => {
         cartList.push({
             productName: button.dataset.productName,
-            quantity:
+            quantity: 1
         });
     })})
